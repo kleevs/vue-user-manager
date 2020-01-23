@@ -1,0 +1,45 @@
+{
+  "name": "user-manager",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./src/index.js",
+  "typings": "./src/index.d.ts",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.14",
+    "animate.css": "^3.7.2",
+    "bootstrap": "^4.4.1",
+    "css-loader": "^3.4.2",
+    "file-loader": "^5.0.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "numeral": "^2.0.6",
+    "popper.js": "^1.16.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.8.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "kleevs",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-router-dom": "^5.1.0"
+  }
+}
